@@ -38,7 +38,7 @@ namespace Task4
         {
             return Math.Sqrt((a.X - b.X) * 2 + (a.Y - b.Y) * 2);
         }
-        private void PerimeterCalculator()
+        public void PerimeterCalculator()
         {
             double result = 0;
             for (int i = 1; i < points.Count - 1; i++)
