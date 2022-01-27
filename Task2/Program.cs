@@ -20,6 +20,8 @@ namespace Task2
             {
                 Console.WriteLine("Incorect data");
             }
+
+            Console.ReadLine();
         }
     }
 }

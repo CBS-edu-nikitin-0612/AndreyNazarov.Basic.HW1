@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Task6
 {
@@ -59,5 +55,15 @@ namespace Task6
         {
             Console.WriteLine($"{index}, {country}, {city}, {street}, house {house}, app. {appartment}");
         }
+
+        //public Address(uint index , string country , string city , string street , string house , string appartment)
+        //{
+        //    this.index = index;
+        //    this.country = country;
+        //    this.city = city;
+        //    this.street = street;
+        //    this.house = house;
+        //    this.appartment = appartment;
+        //}
     }
 }
